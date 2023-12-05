@@ -1,0 +1,97 @@
+1. what is the difference between automated and manual testing in software development?
+
+automated testing
+*automation tools is used to testing data, executing data & tests, and analyzing tests to improve software quality is Automation Testing.
+It is also called test automation or automated QA testing.
+*Automated testing is faster than manual testing
+*Automated testing does need coding language
+*finding any bug automated in the software application
+*it is more costlier
+*The test script can be reused across multiple releases.
+
+manual testing 
+*Manual testing is one type of testing where the tester will test the application without
+any automation tool.
+*manual testing doesnot need any coding language
+*finding any bug manualy in the software application
+*it is less costlier
+
+2)explore most common automation testing tools available in market?
+Selenium
+Katalon Studio
+TestComplete
+Appium
+Ranorex
+Watir
+Apache JMeter
+IBM Rational Functional Tester
+Postman
+Rational Functional Tester
+NeoLoad
+TestNG
+JUnit
+Eggplant Functional
+
+3)what is cross browser testing?
+
+Cross Browser Testing is a type of functional test to check that your web application works as expected in different browsers.
+A web application can be opened in any browser by the end user. 
+For example, some people prefer to open https://x.com in Firefox browser, while others can be using Chrome browser or IE.
+So we need to ensure that the web application will work as expected in all popular browsers so that more people can access and use it. 
+This motive can be fulfilled with Cross Browser Testing of the product.
+
+4)write a blog on TDD and BDD?
+
+TDD stands for test driven development. TDD is the process of writing a test for a specific portion of functionality, allowing the test to run to determine failures, and then adjusting the code as necessary to remedy the failures. Using these tests, developers can ensure that they’ve written functional, dependable code. 
+Additionally, if other developers need to use components of the code, they can run tests to confirm their code’s functionality.
+
+TDD Process
+There are several steps taken to execute test driven development:
+
+The developer writes automated test cases to test the lines of code. 
+These tests are then executed to determine the location of any failures in the program.
+Changes are subsequently applied (refactoring) to ensure that the failures are corrected and do not occur again in the future.
+Finally, tests are executed again until they are passed without error.
+
+Benefits of TDD
+There are many benefits to using TDD instead of another style of development, such as:
+
+Rework time reduced: Test driven development does not allow new code to be written unless the existing code is successfully tested without failures. Until the failures are completely addressed and removed, the process of writing code is halted. Therefore, time spent reworking broken code is kept at a minimum.
+Quick feedback: As the tests focus on specific sections of code at a time, developers can receive more immediate feedback that allows them to implement changes more quickly.
+Increased development productivity: With TDD, the focus is on the production of functional code rather than test case design. As such, productivity increases, and development moves along smoothly.
+More flexible, maintainable code: Because every part of the code is tested before moving on to the next part of the software development process, the code maintains functionality and is adaptable in the future.
+
+BDD stands for behavior driven development, and it is a way for teams of software developers and others to work together to narrow the distance between the business-focused team members and technical-focused people through:
+
+Encouragement of teamwork across roles to increase understanding of what the problem at hand is
+The use of rapid, small iterations of work done to advance feedback and enhance value flow
+Producing system documentation that is automatically checked against the system’s behavior
+BDD typically involves the software developers, test engineers, and project managers as well as other stakeholders. This group collaborates to develop concrete examples of acceptance criteria in a user story. Using a domain-specific language, these examples are then described and put into a feature file. This feature file is subsequently converted into a specification that can be executed, thereby allowing developers to write actual tests that can also be executed.
+
+BDD Process
+The steps to behavior driven development are fairly simple and repeatable as necessary:
+
+Behavior is described typically by utilizing a user story. This allows the team to discuss concrete examples of the new functionality so that everyone can agree on the expectations of the behavior.
+Action is then written by turning the examples into documentation in such a way that it can be automated.
+The test is executed to assist the developers and guide them through the development of the code.
+The code is then created to make the action pass and make the code functional. 
+
+Benefits of BDD
+There are several benefits to making use of BDD for software development, including:
+
+Incorporation of user experience: BDD focuses on the users’ experience and, as such, allows the team to develop a broader perspective and make note of gaps in their understanding. 
+Cost-effectiveness: Because BDD sets priorities for users, developers, and investors alike, it allows for resources to be used optimally in the development of programs.
+Simple cross-browser testing: BDD focuses on behavior, which means that it gives you an ideal framework for cross-browser testing.
+Behavior Driven Development Example
+Behavior driven development follows the “Given-when-then” framework. For example, if your site has a language translation feature and provides translations of the entire webpage in Italian, Spanish, and French, you could encounter scenarios such as the following:
+
+Scenario:
+
+ Receive Messages in my Set Language (Italian)
+Given I am the user “fmallo”
+When the system sends the message “Invalid Login”
+Then I should see the error message “Login non valido”
+Scenario: Change the language I use
+Given I am the user “dmessina”
+When I set my language to “Spanish”
+Then my language should be equal to “Spanish”
